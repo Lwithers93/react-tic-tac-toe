@@ -5,8 +5,4 @@ import "./styles.css";
 import Game from "./App.js";
 
 const root = createRoot(document.getElementById("root"));
-root.render(
-  <StrictMode>
-    <Game />
-  </StrictMode>
-);
+root.render(<Game />);

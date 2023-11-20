@@ -1,11 +1,11 @@
 {
-  "homepage": "https://lwithers93.github.io/react-tic-tac-toe/",
-  "name": "React Tic Tac Toe",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.0"
   },
+  "homepage": "https://lwithers93.github.io/react-tic-tac-toe/",
+  "name": "React Tic Tac Toe",
   "main": "/index.js",
   "devDependencies": {
     "gh-pages": "^6.1.0"

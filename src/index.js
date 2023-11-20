@@ -6,7 +6,7 @@ import BrowserRouter from "react-router-dom/BrowserRouter";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename={{process.env.PUBLIC_URL}}>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Game />
   </BrowserRouter>
 );

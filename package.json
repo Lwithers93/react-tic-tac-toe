@@ -1,9 +1,23 @@
 {
+  "homepage": "https://github.com/Lwithers93/react-tic-tac-toe",
+  "name": "React Tic Tac Toe",
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "^5.0.0"
   },
   "main": "/index.js",
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
 }
